@@ -109,14 +109,14 @@ const AboutContact = () => {
             <p>Founder</p>
           </div>
           <div className="team-member">
-            <img src="/image/arpit.jpg" alt="Arpit Sharma" className="team-img" />
-            <h4>Arpit Sharma</h4>
-            <p>Tech Lead</p>
-          </div>
-          <div className="team-member">
             <img src="/image/sachi.jpg" alt="Sachi Chouskey" className="team-img" />
             <h4>Sachi Chouskey</h4>
             <p>Social Media Manager</p>
+          </div>
+          <div className="team-member">
+            <img src="/image/arpit.jpg" alt="Arpit Sharma" className="team-img" />
+            <h4>Arpit Sharma</h4>
+            <p>Tech Lead</p>
           </div>
           <div className="team-member">
             <img src="/image/sidharth.jpg" alt="Sidharth Mehra" className="team-img" />
