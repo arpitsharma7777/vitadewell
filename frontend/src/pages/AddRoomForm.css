@@ -1,0 +1,87 @@
+.add-room-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.add-room-form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3a4a;
+}
+
+.add-room-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.add-room-form-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #2d3a4a;
+  gap: 0.3rem;
+}
+
+.add-room-form-container input[type="text"],
+.add-room-form-container input[type="number"],
+.add-room-form-container input[type="file"],
+.add-room-form-container select,
+.add-room-form-container textarea {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f9fafb;
+  margin-top: 0.2rem;
+}
+
+.add-room-form-container textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.add-room-form-container input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 0.4rem;
+}
+
+.add-room-form-container button[type="submit"] {
+  background: #2d7ff9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.add-room-form-container button[type="submit"]:hover {
+  background: #1a5fc2;
+}
+
+.success-msg {
+  color: #1a9c4b;
+  background: #e6f9ed;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.error-msg {
+  color: #c92a2a;
+  background: #ffeaea;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}

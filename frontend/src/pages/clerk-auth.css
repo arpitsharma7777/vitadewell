@@ -1,0 +1,76 @@
+.clerk-auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(120deg, #f5f7fa 0%, #e3e9f7 100%);
+}
+
+.clerk-auth-box {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(44, 62, 80, 0.10);
+  min-width: 350px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.clerk-auth-box h2 {
+  margin-bottom: 1.5rem;
+  color: #2d3a4a;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* Clerk widget overrides */
+.cl-internal-1fsg6zy, .cl-card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 16px rgba(44, 62, 80, 0.08) !important;
+  background: #f9fafb !important;
+}
+
+.cl-internal-1fsg6zy input, .cl-card input {
+  border-radius: 7px !important;
+  border: 1px solid #d1d5db !important;
+  background: #fff !important;
+  padding: 0.8rem 1.1rem !important;
+  font-size: 1.05rem !important;
+}
+
+.cl-internal-1fsg6zy button, .cl-card button {
+  background: linear-gradient(90deg, #2d7ff9 0%, #6a82fb 100%) !important;
+  color: #fff !important;
+  border-radius: 7px !important;
+  font-weight: 600 !important;
+  padding: 0.8rem 0 !important;
+  margin-top: 0.7rem !important;
+  font-size: 1.08rem !important;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07) !important;
+  border: none !important;
+  transition: background 0.2s;
+}
+
+.cl-internal-1fsg6zy button:hover, .cl-card button:hover {
+  background: linear-gradient(90deg, #1a5fc2 0%, #4e54c8 100%) !important;
+}
+
+.cl-internal-1fsg6zy .cl-headerTitle, .cl-card .cl-headerTitle {
+  color: #2d3a4a !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+
+.cl-internal-1fsg6zy .cl-footerAction, .cl-card .cl-footerAction {
+  color: #2d7ff9 !important;
+  font-weight: 500 !important;
+}
+
+.cl-internal-1fsg6zy .cl-dividerText, .cl-card .cl-dividerText {
+  color: #b0b7c3 !important;
+  font-size: 0.98rem !important;
+}

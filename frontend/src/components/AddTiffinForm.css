@@ -1,0 +1,39 @@
+
+.add-tiffin-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-tiffin-form h3 {
+    margin-bottom: 10px;
+    color: #4A90E2; /* Primary Blue */
+  }
+  
+  .add-tiffin-form input,
+  .add-tiffin-form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .add-tiffin-form button {
+    background-color: #50C878; /* Secondary Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-tiffin-form button:hover {
+    background-color: #45b567;
+  }
+  
